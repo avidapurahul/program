@@ -1,0 +1,148 @@
+.heading{
+    text-align: right;
+    color: black
+}
+.finding{
+    text-align: right;
+    color: crimson;
+}
+#middle{
+    text-align: center;
+    color: crimson;
+}
+.move{
+    text-align: center;
+    color: crimson
+}
+    .moving{
+        text-align: center;
+        color:black
+    }
+    .forwerd{
+        text-align: center;
+        color: black;
+    }
+    .side{
+        text-align: center;
+    }
+    .movement{
+        text-align: center;
+    }
+    .name{
+        color: cornflowerblue;
+    }
+    .movie{
+        color: cornflowerblue;
+    }
+    .rani{
+        color: crimson;
+    }
+    .nav{
+        color: blue;
+    }
+ 
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: roboto;
+        font-weight: normal;
+    }
+    header ul{
+         list-style:none;
+         display: flex;
+         align-items: center;
+         justify-content: flex-end;
+         padding: 1rem;
+    }
+    header ul li{
+        margin-left: 1.5rem;
+    }
+    header ul img{
+        height: 20px;;
+    }
+    .underline:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    #menu icon{
+        height: 12px; ;
+    }
+    #user icon{
+        height: 20px;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column ;
+        
+    }
+    .google-logo{
+        height:20rem;
+        pointer-events: none;
+    }
+    .search{
+        display: flex;
+        width: 40%;
+        justify-content: center;
+        border: 1px solid lightgray;
+        padding:0.8rem ;
+        border-radius: 30px;
+        justify-content: space-evenly;
+    
+    }
+    .search:hover{
+        box-shadow: 1px 2px 2px 2px lightgray;
+    }
+    .search img{
+        height: 30px;
+    }
+    .search input{
+        width: 90%;
+        border: none;
+        margin-left: 0.8rem;
+        outline: none;
+        font-size: 1.2rem;
+    }
+    
+    .buttons{
+        padding: 0.8rem;
+        border: none;
+        border-radius: 6px;
+        margin-top: 2rem;
+    }
+    main p span{
+        color: blue;
+        margin-left:0.3rem ;
+    }
+    main p{
+        margin-top:2rem;
+        font-size: 0.9rem;
+    }
+    footer{
+        background-color: #f2f2f2;
+        padding: 0.8rem;
+        margin-top: 17%;
+    }
+    footer ul{
+        list-style: none;
+    }
+    footer div p {
+        padding: 0.6rem 0.6rem;
+    }
+    .buttons-menu{
+        display: flex;
+        justify-content:space-between ;
+    }
+    footer div ul{
+        display: flex;
+        padding: 0.6rem 0;
+    }
+    footer div ul li{
+        padding: 0 0.6rem;
+    }
+
+
